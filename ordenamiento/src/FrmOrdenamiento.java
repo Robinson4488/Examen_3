@@ -90,7 +90,7 @@ public class FrmOrdenamiento extends JFrame {
         getContentPane().add(spDocumentos, BorderLayout.CENTER);
 
         String nombreArchivo = System.getProperty("user.dir")
-                + "/Examen3-main/ordenamiento/src/datos/Datos.csv";
+                + "/metodo_ordenamiento/ordenamiento/src/datos/Datos.csv";
         Documento.obtenerDatosDesdeArchivo(nombreArchivo);
         Documento.mostrarDatos(tblDocumentos);
 
